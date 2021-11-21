@@ -85,8 +85,7 @@ void loop() {
   int light=map(analogRead(ldr),0,1023,1,10);
   int ms=map(analogRead(moisture),0,1023,1,100);
  
-         // RS = constrain(RainSensor, 150, 440); 
-          //RS = map(RainSensor, 150, 440, 1023, 0);
+         
           
           if(ms>80)
           {
