@@ -82,44 +82,7 @@ void loop()
       thirdVal = n.toInt();
       fourthVal = o.toInt();
       
-     /* if(fourthVal>80)
-          {
-         // {Serial.println("rain detected");
-            lcd.print(0,0,"Need water!!");
-         
-          delay(1000);
-          lcd.clear();
-          }
-          else{
-          lcd.print(0,0,"water is enough!!");
-          lcd.clear();
-          delay(1000);
-          }
-          if(thirdVal<=4){
-            Serial.println("Night");
-               lcd.print(0,0,"Night");
-              
-            delay(1000);
-          lcd.clear();
-            
-          }
-          else if(thirdVal<7&&thirdVal>4){
-            Serial.println("Evening");
-             lcd.print(0,0,"Evening");
-            delay(1000);
-          lcd.clear();
-          }
-          else if(thirdVal>=7)
-          {
-             lcd.print(0,0,"Morning");
-            delay(1000);
-          lcd.clear();
-                    delay(1000);
-
-//         Serial.println(0,0,"morning");
-          }
-          delay(1000); 
-    */  myString = "";
+      myString = "";
       // end new code
     }
   }
